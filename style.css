@@ -87,13 +87,27 @@ main {
   -webkit-text-fill-color: transparent;
   margin-bottom: 0px;
 }
-.play,
+
 .download,
 .profile {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+.instant{
+  display: flex;
+  gap: 5px ;
+  align-items: center;
+  color: #000000;
+}
+.plays i{
+  font-size: 16px;
+  display: flex;
+}
+.plays p{
+  font-size: 15px; 
+}
+
 .btn-primary {
   color: white;
   background-color: deeppink;
@@ -360,12 +374,14 @@ main {
   background-color: #f61c0d;
  
 }
-@media screen and (max-width:576px) {
+
+
+@media screen and (max-width:556px) {
   .nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 0 auto;
+    justify-content: center;
   }
   .list ul {
     display: flex;
@@ -474,11 +490,8 @@ main {
     width: 20%;
     margin-left: 40px ;
   }
+  .last-section{
+    width: 100%;
+  }
 
-}
-@media screen and (min-width:577px) and(max-width:768px) {
-    
-    .nav{
-        width: 50%;
-    }
 }
