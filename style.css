@@ -358,6 +358,7 @@ main {
 }
 .fa-square-youtube {
   background-color: #f61c0d;
+ 
 }
 @media screen and (max-width: 470px) {
   .nav {
@@ -445,6 +446,33 @@ main {
   }
   .section3 > div:hover {
     border: 1px solid deeppink;
+    padding: 5px;
+  }
+  .div-7{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+    justify-content: center;
+    text-align: center;
+  }
+  .icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin-top: 30px;
+    gap: 40px;
+  }
+  .last-div-description{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 5px;
+    margin-top: 30px;
+
+  }
+  .fa-square-youtube{
+    width: 20%;
+    margin-left: 40px ;
   }
 
 }
