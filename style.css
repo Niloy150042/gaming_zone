@@ -374,11 +374,12 @@ main {
   background-color: #f61c0d;
  
 }
+
 @media screen and (min-width :577px )and (max-width:992px) {
   .nav,.cartoon{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 200%;
   }
   .gaming{
     display: flex;
@@ -388,15 +389,28 @@ main {
   }
   .cartoon .div3{
     text-align: start;
-    width: 50%;
+    width: 200%;
 
   }
   .section2{
     display: flex;
     flex-direction: column;
+    width: 200%;
   }
   .div-1{
     margin-top: 70px;
+  }
+  .picture{
+    width: 200%;
+  }
+  .section3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    width: 200%;
+  }
+  .last-section{
+    width: 200%;
   }
 
 }
