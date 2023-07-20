@@ -374,9 +374,34 @@ main {
   background-color: #f61c0d;
  
 }
+@media screen and (min-width :577px )and (max-width:992px) {
+  .nav,.cartoon{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .gaming{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .cartoon .div3{
+    text-align: start;
+    width: 50%;
 
+  }
+  .section2{
+    display: flex;
+    flex-direction: column;
+  }
+  .div-1{
+    margin-top: 70px;
+  }
 
-@media screen and (max-width:556px) {
+}
+
+@media screen and (max-width:576px) {
   .nav {
     display: flex;
     flex-direction: column;
