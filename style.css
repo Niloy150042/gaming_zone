@@ -360,7 +360,7 @@ main {
   background-color: #f61c0d;
  
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width:576px) {
   .nav {
     display: flex;
     flex-direction: column;
@@ -475,4 +475,10 @@ main {
     margin-left: 40px ;
   }
 
+}
+@media screen and (min-width:577px) and(max-width:768px) {
+    
+    .nav{
+        width: 50%;
+    }
 }
